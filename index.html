@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfólio João Pedro Rufino</title>
+</head>
+<body>
+  <header class="container text-center">
+    <img src="Foto perfil.jpeg" class="rounded-pill" alt="Imagem João Pedro" width="150">
+    <p class="lead">Meu nome é João Pedro Rufino</p>
+    <h1>Eu sou Estudante</h1>
+    <p>Sonho: jogador de futebol.</p>
+    <p>Minhas habilidades</p>
+    <div>
+      <p class="badge text-bg-secondary">HTML</p>
+      <p class="badge text-bg-secondary">CSS</p>
+      <p class="badge text-bg-secondary">JavaScript</p>
+      <p class="badge text-bg-secondary">Futebol</p>
+    </div>
+  </header>
+  <main class="container">
+    <h2>Meus projetos</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="Curso de Informática.jpeg" class="card-img-top" alt="Curso de Programação">
+          <div class="card-body">
+            <h5 class="card-title">Curso de Programação</h5>
+            <p class="card-text">Atualmente, estou estudando programação para abrir mais portas no futuro.</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o Projeto</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="Sonho de futebol.jpg" class="card-img-top" alt="Sonho de Jogador de Futebol">
+          <div class="card-body">
+            <h5 class="card-title">Sonho: Jogador de Futebol</h5>
+            <p class="card-text">Meu maior sonho é atuar como jogador profissional de futebol e inspirar outras pessoas.</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o Projeto</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal Curso de Programação -->
+  <div class="modal" tabindex="-1" id="modal1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Curso de Programação</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Este curso tem sido fundamental para desenvolver minhas habilidades na área da computação, estou focado em aprender para construir um futuro sólido.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Sonho de Jogador de Futebol -->
+  <div class="modal" tabindex="-1" id="modal2">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Sonho: Jogador de Futebol</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>O futebol é minha paixão desde criança. Treino com dedicação para alcançar o sonho de ser jogador profissional e mostrar meu talento nos gramados.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container py-5">
+    <h2>Entre em contato</h2>
+    <div>
+      <i class="bi bi-github"></i>
+      <a href="#">GitHub João Pedro</a>
+      <p class="py-5">Feito por João Pedro Rufino</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</body>
+</html>
